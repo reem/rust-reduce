@@ -5,8 +5,6 @@
 //! Reduce over tuples of value-consumers for implementing strongly-typed
 //! middleware-like systems.
 
-extern crate async;
-
 /// Reducable objects.
 pub trait Reduce<I, O> {
     /// Apply this to an input value, running it through potentially many places
